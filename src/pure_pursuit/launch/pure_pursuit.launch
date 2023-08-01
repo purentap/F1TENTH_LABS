@@ -1,0 +1,7 @@
+<launch>
+
+    <!-- run the pure purusit node-->
+    <node pkg="pure_pursuit" name="pure_pursuit_node" type="pure_pursuit.py"/>
+
+    <rosparam file = "$(find pure_pursuit)/config/pure_pursuit.yaml" />
+</launch>

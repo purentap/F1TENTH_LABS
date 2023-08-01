@@ -1,0 +1,8 @@
+prefix=/home/puren/ros_workspaces/f1tenth_labs/lab1/devel
+
+Name: safety_node
+Description: Description of safety_node
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

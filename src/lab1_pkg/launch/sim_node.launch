@@ -1,0 +1,8 @@
+ <launch>
+
+    <!-- Launch the simulator -->
+    <include file="$(find f1tenth_simulator)/launch/simulator.launch"/>
+    <!-- run the subscriber node-->
+    <node pkg="lab1_pkg" name="subscriber_node" type="subscriber.py"/>
+
+  </launch>

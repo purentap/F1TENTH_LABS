@@ -1,0 +1,8 @@
+prefix=/home/puren/ros_workspaces/f1tenth_labs/lab1/install
+
+Name: reactive_gap_following
+Description: Description of reactive_gap_following
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/puren/ros_workspaces/f1tenth_labs/lab1/install
+
+Name: librviz_tutorial
+Description: Description of librviz_tutorial
+Version: 0.11.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

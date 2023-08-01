@@ -1,0 +1,8 @@
+prefix=/home/puren/ros_workspaces/f1tenth_labs/lab1/devel
+
+Name: lab1_pkg
+Description: Description of lab1_pkg
+Version: 0.0.0
+Cflags: -I/home/puren/ros_workspaces/f1tenth_labs/lab1/devel/include -I/home/puren/ros_workspaces/f1tenth_labs/lab1/src/lab1_pkg/include
+Libs: -L${prefix}/lib -llab1_pkg
+Requires: roscpp rospy std_msgs message_runtime
